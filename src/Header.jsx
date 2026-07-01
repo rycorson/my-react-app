@@ -10,7 +10,7 @@ function Header() {
             </ul>
             <hr></hr>
         </header>
-    )
+    );
 }
 
 export default Header
