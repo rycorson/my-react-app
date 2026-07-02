@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -108,7 +108,7 @@ code {
   line-height: 135%;
   padding: 4px 8px;
   background: var(--code-bg);
-}
+} */
 
 
 /* Custom CSS starts here */
@@ -149,4 +149,32 @@ code {
   border-radius: 5px;
   border: none;
   cursor: pointer;
+}
+
+.student {
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsla(0, 0%, 50%, 0.8);
+}
+
+.student p {
+  margin: 0;
+}
+
+.welcome-message {
+  font-size: 2.5em;
+  background-color: hsl(120, 100%, 42%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+.login-prompt {
+  font-size: 2.5em;
+  background-color: hsl(0, 100%, 42%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
 }
