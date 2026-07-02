@@ -1,3 +1,4 @@
+import Button from './Button.jsx';
 import Card from './Card.jsx';
 import Food from './Food.jsx'
 import Footer from './Footer.jsx'
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header />
       <Card />
+      <Button />
       <Food />
       <Footer />
     </>
