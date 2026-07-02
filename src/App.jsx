@@ -4,6 +4,7 @@ import Food from './Food.jsx'
 import Footer from './Footer.jsx'
 import Header from './Header.jsx'
 import List from './List.jsx';
+import ProfilePicture from './ProfilePicture.jsx';
 import Student from './Student.jsx'
 import UserGreeting from './UserGreeting.jsx';
 
@@ -35,6 +36,7 @@ function App() {
       {fruits.length > 0 && <List items={fruits} category="Fruits" />}
       {vegetables.length > 0 && <List items={vegetables} category="Vegetables" />}
       <Food />
+      <ProfilePicture />
       <Footer />
     </>
   );

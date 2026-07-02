@@ -202,3 +202,8 @@ code {
   color: hsl(0, 0%, 45%);
   cursor: pointer;
 }
+
+.profile-pic {
+  width: 200px;
+  height: auto;
+}
