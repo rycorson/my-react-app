@@ -3,10 +3,24 @@ import Card from './Card.jsx';
 import Food from './Food.jsx'
 import Footer from './Footer.jsx'
 import Header from './Header.jsx'
+import List from './List.jsx';
 import Student from './Student.jsx'
 import UserGreeting from './UserGreeting.jsx';
 
 function App() {
+
+  const fruits = [{id: 1, name: 'Apple', calories: 95}, 
+                    {id: 2, name: 'Banana', calories: 105}, 
+                    {id: 3, name: 'Cherry', calories: 80}, 
+                    {id: 4, name: 'Date', calories: 110}, 
+                    {id: 5, name: 'Elderberry', calories: 90}];
+
+  const vegetables = [{id: 6, name: 'Carrot', calories: 25}, 
+                      {id: 7, name: 'Broccoli', calories: 55}, 
+                      {id: 8, name: 'Spinach', calories: 20}, 
+                      {id: 9, name: 'Bell Pepper', calories: 31}, 
+                      {id: 10, name: 'Zucchini', calories: 17}];
+
   return (
     <>
       <Header />
@@ -18,6 +32,8 @@ function App() {
       <Student name="Sandy" age={27} isStudent={true} />
       <Student name="Larry" />
       <Button />
+      {fruits.length > 0 && <List items={fruits} category="Fruits" />}
+      {vegetables.length > 0 && <List items={vegetables} category="Vegetables" />}
       <Food />
       <Footer />
     </>
