@@ -1,9 +1,11 @@
 import Button from './Button.jsx';
 import Card from './Card.jsx';
+import Counter from './Counter.jsx';
 import Food from './Food.jsx'
 import Footer from './Footer.jsx'
 import Header from './Header.jsx'
 import List from './List.jsx';
+import MyComponent from './MyComponent.jsx';
 import ProfilePicture from './ProfilePicture.jsx';
 import Student from './Student.jsx'
 import UserGreeting from './UserGreeting.jsx';
@@ -37,6 +39,8 @@ function App() {
       {vegetables.length > 0 && <List items={vegetables} category="Vegetables" />}
       <Food />
       <ProfilePicture />
+      <MyComponent />
+      <Counter />
       <Footer />
     </>
   );
