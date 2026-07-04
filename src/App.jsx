@@ -1,5 +1,6 @@
 import Button from './Button.jsx';
 import Card from './Card.jsx';
+import ColorPicker from './ColorPicker.jsx';
 import Counter from './Counter.jsx';
 import Food from './Food.jsx'
 import Footer from './Footer.jsx'
@@ -41,8 +42,9 @@ function App() {
       <Food />
       <ProfilePicture />
       <MyComponent />
-      <MyComponent2 />
       <Counter />
+      <MyComponent2 />
+      <ColorPicker />
       <Footer />
     </>
   );
