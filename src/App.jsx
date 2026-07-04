@@ -6,6 +6,7 @@ import Footer from './Footer.jsx'
 import Header from './Header.jsx'
 import List from './List.jsx';
 import MyComponent from './MyComponent.jsx';
+import MyComponent2 from './MyComponent2.jsx';
 import ProfilePicture from './ProfilePicture.jsx';
 import Student from './Student.jsx'
 import UserGreeting from './UserGreeting.jsx';
@@ -40,6 +41,7 @@ function App() {
       <Food />
       <ProfilePicture />
       <MyComponent />
+      <MyComponent2 />
       <Counter />
       <Footer />
     </>
