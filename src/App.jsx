@@ -8,6 +8,7 @@ import Header from './Header.jsx'
 import List from './List.jsx';
 import MyComponent from './MyComponent.jsx';
 import MyComponent2 from './MyComponent2.jsx';
+import MyComponent3 from './MyComponent3.jsx';
 import ProfilePicture from './ProfilePicture.jsx';
 import Student from './Student.jsx'
 import UserGreeting from './UserGreeting.jsx';
@@ -45,6 +46,7 @@ function App() {
       <Counter />
       <MyComponent2 />
       <ColorPicker />
+      <MyComponent3 />
       <Footer />
     </>
   );
