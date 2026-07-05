@@ -10,6 +10,7 @@ import MyComponent from './MyComponent.jsx';
 import MyComponent2 from './MyComponent2.jsx';
 import MyComponent3 from './MyComponent3.jsx';
 import MyComponent4 from './MyComponent4.jsx';
+import MyComponent5 from './MyComponent5.jsx';
 import ProfilePicture from './ProfilePicture.jsx';
 import Student from './Student.jsx'
 import UserGreeting from './UserGreeting.jsx';
@@ -49,6 +50,7 @@ function App() {
       <ColorPicker />
       <MyComponent3 />
       <MyComponent4 />
+      <MyComponent5 />
       <Footer />
     </>
   );
