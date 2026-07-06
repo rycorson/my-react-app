@@ -13,6 +13,7 @@ import MyComponent4 from './MyComponent4.jsx';
 import MyComponent5 from './MyComponent5.jsx';
 import ProfilePicture from './ProfilePicture.jsx';
 import Student from './Student.jsx'
+import ToDoList from './ToDoList.jsx';
 import UserGreeting from './UserGreeting.jsx';
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
       <MyComponent3 />
       <MyComponent4 />
       <MyComponent5 />
+      <ToDoList />
       <Footer />
     </>
   );
