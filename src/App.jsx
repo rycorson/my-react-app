@@ -1,6 +1,7 @@
 import Button from './Button.jsx';
 import Card from './Card.jsx';
 import ColorPicker from './ColorPicker.jsx';
+import ComponentA from './ComponentA.jsx';
 import Counter from './Counter.jsx';
 import DigitalClock from './DigitalClock.jsx';
 import Food from './Food.jsx'
@@ -57,6 +58,7 @@ function App() {
       <ToDoList />
       <MyComponent6 />
       <DigitalClock />
+      <ComponentA />
       <Footer />
     </>
   );
