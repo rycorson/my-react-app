@@ -16,6 +16,7 @@ import MyComponent5 from './MyComponent5.jsx';
 import MyComponent6 from './MyComponent6.jsx';
 import MyComponent7 from './MyComponent7.jsx';
 import ProfilePicture from './ProfilePicture.jsx';
+import Stopwatch from './Stopwatch.jsx';
 import Student from './Student.jsx'
 import ToDoList from './ToDoList.jsx';
 import UserGreeting from './UserGreeting.jsx';
@@ -61,6 +62,7 @@ function App() {
       <DigitalClock />
       <ComponentA />
       <MyComponent7 />
+      <Stopwatch />
       <Footer />
     </>
   );
